@@ -1,13 +1,8 @@
 #!/bin/bash
 # Call read_hash function.
-# Copyright (C) 2020 Tamas Viktor Krizsan
+# Copyright (C) 2021 Tamas Viktor Krizsan
 # <https://github.com/tamasviktorkrizsan>
 # License: GPL-3.0-or-later
-
-
-### INCLUDES
-
-source read_hash.sh
 
 
 ### INPUT PARAMETERS
@@ -15,7 +10,12 @@ source read_hash.sh
 input="";
 
 
-### FUNCTION CALL
+### INCLUDES
+
+source read_hash.sh
+
+
+### CALL FUNCTION
 
 read_hash "$input";
 
