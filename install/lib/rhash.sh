@@ -14,4 +14,4 @@ source bash.inc.sh
 
 ## Constants
 
-readonly -- RHASH_SHARED_SETTINGS='--verbose --speed --percents';
+declare -xr RHASH_SHARED_SETTINGS='--verbose --speed --percents';
